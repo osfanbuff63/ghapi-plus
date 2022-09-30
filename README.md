@@ -17,7 +17,7 @@ I am fully aware that `ghapi` [includes a CLI interface](https://ghapi.fast.ai/c
 
 #### It uses 3 separate commands on the command line
 
-And just when you thought it couldn't get any worse, it turns out `ghapi` isn't just `ghapi`, but it's `ghpath` and `ghraw` as well, and they are all handled by the same code. Not only does this cause confusion, it's just weird when subcommands exist and are widely used, as well as parameters, which can be implemented in raw Python with `sys.argv`.
+And just when you thought it couldn't get any worse, it turns out `ghapi` isn't just `ghapi`, but it's `ghpath` and `ghraw` as well, and they are all handled by the same code. Not only does this cause confusion, it's just weird when subcommands exist and are widely used, as well as parameters, which can be implemented in raw Python with `sys.argv`, or even easier with `click`.
 
 ### What about the main ghapi_plus folder?
 
