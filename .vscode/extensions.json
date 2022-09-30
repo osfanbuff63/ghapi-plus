@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "JillMNolan.python-essentials", // Includes ms-python.python, intellicode, markdownlint, autodocstring, etc
+        "seanwu.vscode-qt-for-python" // for the GUI package
+    ],
+    "unwantedRecommendations": [
+        "fabioz.vscode-pydev"
+    ]
+}
